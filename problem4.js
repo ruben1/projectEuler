@@ -25,12 +25,12 @@ var problem4 = function() {
   var number = 100;
 
   while(number < 1000) {
-  	for(var i = 100; i < 1000; i++) {
+    for(var i = 100; i < 1000; i++) {
       var multiplication = number * i;
       if(isPalindrome(multiplication)) {
         palindrome = multiplication;
       }
-  	}
+    }
     number += 1;
   }
   
