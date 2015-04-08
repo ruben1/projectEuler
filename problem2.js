@@ -17,12 +17,12 @@ var problem2 = function() {
   var temp;
  
   while(last < 4000000) {
-  	if(last % 2 === 0) {
+    if(last % 2 === 0) {
   	  sum += last;
-  	}
-  	temp = last;
-  	last = last + beforeLast;
-  	beforeLast = temp;
+    }
+    temp = last;
+    last = last + beforeLast;
+    beforeLast = temp;
   }
   return sum;
 };
